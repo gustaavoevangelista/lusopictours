@@ -1,38 +1,915 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.frame-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 480px;
+    height: 616px;
+    overflow: hidden;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .selecione-um-pais {
+    position: absolute;
+    top: 43px;
+    left: 65px;
+    display: flex;
+    align-items: center;
+    width: 415px;
+    height: 65px;
   }
-  to {
-    transform: rotate(360deg);
+  .icoutline-greater-than-icon,
+  .twemojiflag-portugal-icon {
+    position: absolute;
+    top: 21px;
+    left: 302px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
   }
-}
+  .twemojiflag-portugal-icon {
+    top: 15px;
+    left: 16px;
+    width: 36px;
+    height: 36px;
+  }
+  .portugal-div {
+    position: absolute;
+    top: 17px;
+    left: 84px;
+    display: inline-block;
+  }
+  .frame-div1,
+  .frame-div2 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frame-div2 {
+    top: 157px;
+    left: 65px;
+    border-radius: var(--br-2xs);
+    background-color: var(--color-white);
+    width: 348px;
+    height: 66px;
+    font-size: var(--font-size-sm);
+  }
+  .frame-div1 {
+    top: 0;
+    left: 960px;
+    background-color: var(--color-gray-100);
+    width: 480px;
+    height: 616px;
+  }
+  .contactar-p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .careers-p {
+    margin: 0;
+  }
+  .contactar-condicoes-legais-pol-span {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .contactar-condicoes-legais-pol-div,
+  .informacoes-div,
+  .siga-nos-em-div {
+    position: absolute;
+    left: 65px;
+    display: flex;
+    align-items: center;
+    width: 415px;
+  }
+  .contactar-condicoes-legais-pol-div {
+    top: 106px;
+    line-height: 51px;
+    color: var(--color-gray-200);
+    height: 510px;
+  }
+  .informacoes-div,
+  .siga-nos-em-div {
+    top: 41px;
+    height: 65px;
+  }
+  .siga-nos-em-div {
+    left: 545px;
+  }
+  .akar-iconsfacebook-fill {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .social-icons-div {
+    position: absolute;
+    top: 167px;
+    left: 552px;
+    width: 336px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-div {
+    position: absolute;
+    top: 3994px;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 1440px;
+    height: 616px;
+    text-align: left;
+    font-size: var(--font-size-lg);
+  }
+  .the-point-of-using-lorem-ipsum {
+    position: absolute;
+    top: calc(50% - 104px);
+    left: calc(50% - 123px);
+    letter-spacing: -0.05em;
+    line-height: 42px;
+    display: inline-block;
+    width: 246px;
+    height: 265px;
+  }
+  .frame-div3 {
+    position: absolute;
+    top: 230px;
+    left: 573px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-white);
+    width: 308px;
+    height: 400px;
+    overflow: hidden;
+    text-align: left;
+    color: var(--color-gray-200);
+  }
+  .image-2-icon {
+    position: absolute;
+    top: 155px;
+    left: 652px;
+    border-radius: var(--br-xl);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .many-desktop-publishing-packag {
+    position: absolute;
+    top: calc(50% - 114px);
+    left: calc(50% - 123px);
+    letter-spacing: -0.05em;
+    line-height: 42px;
+    display: inline-block;
+    width: 246px;
+    height: 265px;
+  }
+  .frame-div4 {
+    position: absolute;
+    top: 230px;
+    left: 1030px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-white);
+    width: 308px;
+    height: 400px;
+    overflow: hidden;
+    text-align: left;
+    color: var(--color-gray-200);
+  }
+  .image2-1-icon {
+    position: absolute;
+    top: 155px;
+    left: 1109px;
+    border-radius: var(--br-xl);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .frame-div5 {
+    position: absolute;
+    top: 230px;
+    left: 116px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-white);
+    width: 308px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .image1-1-icon {
+    position: absolute;
+    top: 155px;
+    left: 194px;
+    border-radius: var(--br-xl);
+    width: 151.13px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .it-is-a-long-established-fact {
+    position: absolute;
+    top: calc(50% - 164px);
+    left: calc(50% - 573px);
+    letter-spacing: -0.05em;
+    line-height: 42px;
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    width: 246px;
+    height: 265px;
+  }
+  .ver-todos-os-testimonials {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 305px;
+    height: 44px;
+  }
+  .biarrow-down-short-div {
+    top: 52px;
+    left: 172px;
+    width: 45px;
+    height: 45px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  }
+  .biarrow-down-short-div,
+  .vector-icon,
+  .veja-o-top10 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon {
+    height: 32.82%;
+    width: 5.02%;
+    top: 33.33%;
+    right: 7.86%;
+    bottom: 33.85%;
+    left: 87.11%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .veja-o-top10 {
+    top: 809px;
+    left: 513px;
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.25);
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    width: 419px;
+    height: 60px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+  }
+  .div {
+    position: relative;
+    display: inline-block;
+  }
+  .vector-icon1 {
+    position: relative;
+    width: 37.5px;
+    height: 36.25px;
+    flex-shrink: 0;
+  }
+  .frame-div6,
+  .frame-div7,
+  .frame-div8 {
+    position: absolute;
+    top: 667px;
+    left: 579px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-md);
+    font-size: var(--font-size-lg);
+  }
+  .frame-div7,
+  .frame-div8 {
+    left: 1036px;
+  }
+  .frame-div8 {
+    left: 122px;
+  }
+  .testimonials-div {
+    position: absolute;
+    top: 3034px;
+    left: 0;
+    background-color: var(--color-violet-100);
+    width: 1440px;
+    height: 960px;
+    overflow: hidden;
+    font-size: var(--font-size-base);
+  }
+  .testimonials-p {
+    margin: 0;
+    color: var(--color-white);
+  }
+  .clients-testimonials-div {
+    position: absolute;
+    top: 2925px;
+    left: 1px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 217px;
+    color: var(--color-violet-100);
+  }
+  .fluent-emojihouse-icon {
+    position: absolute;
+    top: 80px;
+    left: 94px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .cadastre-e-alugue-j-o-seu-apa {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 49px;
+  }
+  .services-button-div {
+    position: absolute;
+    top: 260px;
+    left: 49px;
+    border-radius: var(--br-2xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-violet-200);
+    box-sizing: border-box;
+    width: 210px;
+    height: 80px;
+    overflow: hidden;
+  }
+  .cadastre-e-aluge-casa,
+  .pacotes-turisticos-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 308px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .pacotes-turisticos-div {
+    left: 457px;
+  }
+  .ensaios-fotogrficos-div {
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 49px;
+  }
+  .ensaios-fotograficos-div {
+    position: absolute;
+    top: 0;
+    left: 914px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 308px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .nossos-servios-div {
+    position: absolute;
+    top: 2478px;
+    left: 116px;
+    width: 1222px;
+    height: 400px;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-inter);
+  }
+  .liubliania-eslovnia-div {
+    position: absolute;
+    top: 31px;
+    left: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    height: 107px;
+  }
+  .frame-div11 {
+    position: absolute;
+    top: 294px;
+    left: 0;
+    background-color: var(--color-white);
+    width: 347px;
+    height: 179px;
+    overflow: hidden;
+  }
+  .liubliana-eslovenia-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 347px;
+    height: 294px;
+    object-fit: cover;
+  }
+  .top-1-destino-da-europa,
+  .top-2-destino-da-europa,
+  .top-3-destino-da-europa {
+    position: absolute;
+    top: 156px;
+    left: 159px;
+    border-radius: var(--br-sm);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 347px;
+    height: 473px;
+    overflow: hidden;
+  }
+  .top-2-destino-da-europa,
+  .top-3-destino-da-europa {
+    left: 933px;
+  }
+  .top-2-destino-da-europa {
+    left: 546px;
+  }
+  .veja-o-top-10 {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 44px;
+  }
+  .biarrow-down-short-icon,
+  .veja-o-top101 {
+    position: absolute;
+    top: 7px;
+    left: 214px;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+  }
+  .veja-o-top101 {
+    top: 682px;
+    left: 575px;
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-violet-100);
+    box-sizing: border-box;
+    width: 289px;
+    height: 60px;
+  }
+  .top-destinos-europa {
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    background-color: var(--color-violet-100);
+    width: 1440px;
+    height: 909px;
+    overflow: hidden;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+  }
+  .span {
+    color: var(--color-gray-200);
+  }
+  .europa-2022-span {
+    color: var(--color-white);
+  }
+  .top-destinos-europa-2022 {
+    position: absolute;
+    top: 1360px;
+    left: 415px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    width: 611px;
+    height: 81px;
+    color: var(--color-violet-100);
+  }
+  .title-rating-price {
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 160px;
+  }
+  .ap1-1-icon,
+  .info-div,
+  .title-rating-price {
+    position: absolute;
+    left: 0;
+    width: 300px;
+  }
+  .info-div {
+    top: 220px;
+    background-color: var(--color-white);
+    height: 160px;
+    overflow: hidden;
+  }
+  .ap1-1-icon {
+    top: 0;
+    height: 220px;
+    object-fit: cover;
+  }
+  .frame-div14,
+  .premium-div {
+    position: absolute;
+    width: 110px;
+    height: 35px;
+  }
+  .premium-div {
+    top: 0;
+    left: 0;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-div14 {
+    top: 21px;
+    left: 13px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    overflow: hidden;
+  }
+  .img-div {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs) var(--br-xs) 0 0;
+    height: 220px;
+    overflow: hidden;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+  }
+  .card06-div,
+  .frame-div15,
+  .img-div,
+  .info-div1 {
+    position: absolute;
+    background-color: var(--color-white);
+    width: 300px;
+  }
+  .card06-div {
+    top: 0;
+    left: 1084px;
+    border-radius: var(--br-md);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    height: 380px;
+  }
+  .frame-div15,
+  .info-div1 {
+    top: 220px;
+    left: 0;
+    border-radius: 0 0 var(--br-xs) var(--br-xs);
+    height: 160px;
+    overflow: hidden;
+  }
+  .frame-div15 {
+    top: 24px;
+    left: 13px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    width: 110px;
+    height: 35px;
+  }
+  .card03-div {
+    position: absolute;
+    top: 0;
+    left: 723px;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 380px;
+  }
+  .frame-div16 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    width: 110px;
+    height: 35px;
+    overflow: hidden;
+  }
+  .ap2-1-icon,
+  .card10-div {
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+  .card10-div {
+    left: 2826px;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    height: 381px;
+  }
+  .ap2-1-icon {
+    left: 0;
+    border-radius: var(--br-xs) var(--br-xs) 0 0;
+    height: 210px;
+    object-fit: cover;
+  }
+  .frame-div17 {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-violet-100);
+    width: 110px;
+    height: 35px;
+    overflow: hidden;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+  }
+  .card01-div,
+  .card02-div,
+  .card04-div,
+  .card05-div,
+  .card07-div,
+  .card08-div,
+  .card09-div {
+    position: absolute;
+    top: 1px;
+    left: 2146px;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 380px;
+  }
+  .card01-div,
+  .card04-div,
+  .card05-div,
+  .card07-div,
+  .card08-div,
+  .card09-div {
+    top: 0;
+    left: 3166px;
+  }
+  .card01-div,
+  .card04-div,
+  .card05-div,
+  .card07-div,
+  .card08-div {
+    left: 2486px;
+  }
+  .card01-div,
+  .card04-div,
+  .card05-div,
+  .card07-div {
+    left: 1806px;
+  }
+  .card01-div,
+  .card04-div,
+  .card05-div {
+    left: 1445px;
+  }
+  .card01-div,
+  .card05-div {
+    left: 362px;
+  }
+  .card01-div {
+    left: 1px;
+  }
+  .slider-div {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    width: 1328px;
+    height: 381px;
+    overflow: hidden;
+  }
+  .div3 {
+    position: absolute;
+    top: 5px;
+    left: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 50px;
+  }
+  .button-right-div {
+    position: absolute;
+    top: 160px;
+    left: 1328px;
+    border-radius: var(--br-lg);
+    background-color: var(--color-violet-100);
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    color: var(--color-white);
+  }
+  .carousel-div,
+  .dots-icon {
+    position: absolute;
+    top: 455px;
+    left: 593px;
+    width: 182px;
+    height: 15px;
+  }
+  .carousel-div {
+    top: 744px;
+    left: 26px;
+    width: 1388px;
+    height: 470px;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-inter);
+  }
+  .background-mundi-map,
+  .img-1section-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1439px;
+    height: 689px;
+    object-fit: cover;
+  }
+  .img-1section-1-icon {
+    width: 764px;
+    height: 656px;
+    opacity: 0.5;
+  }
+  .pic-tours-b {
+    position: absolute;
+    top: 107px;
+    left: 0;
+    letter-spacing: 0.08em;
+    line-height: 110px;
+    display: flex;
+    align-items: center;
+    width: 720px;
+    height: 514px;
+    -webkit-text-stroke: 3px #fd3f92;
+  }
+  .evamenu-outline-icon,
+  .img-div9,
+  .mdimagnify-icon {
+    position: absolute;
+    top: 57px;
+    left: 589px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .img-div9,
+  .mdimagnify-icon {
+    left: 539px;
+  }
+  .img-div9 {
+    top: 0;
+    left: 720px;
+    background-color: var(--color-white);
+    width: 720px;
+    height: 656px;
+    text-align: left;
+  }
+  .search-b {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 33px;
+  }
+  .frame-div24 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    border-radius: 0 var(--br-lg) var(--br-lg) 0;
+    background-color: var(--color-violet-100);
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .datas-b {
+    position: absolute;
+    top: 7px;
+    left: 31px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+  }
+  .frame-div25 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-violet-100);
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+    opacity: 0.8;
+    color: #888;
+  }
+  .local-b {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 40px;
+  }
+  .frame-div26 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-lg) 0 0 var(--br-lg);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-violet-100);
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+    color: #999;
+  }
+  .search-bar-div {
+    position: absolute;
+    top: 57px;
+    left: 495px;
+    width: 450px;
+    height: 50px;
+    font-size: var(--font-size-lg);
+  }
+  .lu-so-b {
+    position: absolute;
+    top: 250px;
+    left: 513px;
+    letter-spacing: 0.08em;
+    line-height: 110px;
+    display: flex;
+    color: var(--color-violet-100);
+    align-items: center;
+    width: 218px;
+    height: 224px;
+  }
+  .logo-lusopictours-icon {
+    position: absolute;
+    top: 30px;
+    left: 56px;
+    width: 193.44px;
+    height: 140px;
+    object-fit: cover;
+  }
+  .section-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eee9e9;
+    width: 1440px;
+    height: 656px;
+    overflow: hidden;
+    font-size: var(--font-size-2xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .nossos-span {
+    line-height: 95px;
+  }
+  .servicos-span {
+    line-height: 75px;
+  }
+  .servicos-p {
+    margin: 0;
+    color: var(--color-violet-100);
+  }
+  .nossos-servios-div1 {
+    position: absolute;
+    top: 2160px;
+    left: 444px;
+    display: flex;
+    align-items: center;
+    width: 553px;
+    height: 290px;
+    color: var(--color-white);
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 4610px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-abyssinica-sil);
+  }
+  
