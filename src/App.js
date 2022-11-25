@@ -68,16 +68,16 @@ function App() {
             distribution of letters.
           </div>
         </div>
-        <img className="image-2-icon" alt="" src="../image-2@2x.png" />
+        <img className="image-2-icon" alt="" src="/img/cliente1.png" />
         <div className="frame-div4">
           <div className="many-desktop-publishing-packag">
             Many desktop publishing packages and web page editors now use Lorem
             Ipsum as their default model text, and a search for
           </div>
         </div>
-        <img className="image2-1-icon" alt="" src="../image2-1@2x.png" />
+        <img className="image2-1-icon" alt="" src="/img/cliente2.png" />
         <div className="frame-div5" />
-        <img className="image1-1-icon" alt="" src="../image1-1@2x.png" />
+        <img className="image1-1-icon" alt="" src="/img/cliente3.png" />
         <div className="it-is-a-long-established-fact">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
@@ -129,7 +129,7 @@ function App() {
           <img
             className="fluent-emojihouse-icon"
             alt=""
-            src="../fluentemojihouse.svg"
+            src="/img/house.svg"
           />
           <div className="services-button-div">
             <div className="cadastre-e-alugue-j-o-seu-apa">
@@ -141,7 +141,7 @@ function App() {
           <img
             className="fluent-emojihouse-icon"
             alt=""
-            src="../flatcoloriconsbinoculars.svg"
+            src="/img/binocular.svg"
           />
           <div className="services-button-div">
             <div className="cadastre-e-alugue-j-o-seu-apa">
@@ -153,7 +153,7 @@ function App() {
           <img
             className="fluent-emojihouse-icon"
             alt=""
-            src="../emojionev1camerawithflash.svg"
+            src="/img/camera.svg"
           />
           <div className="services-button-div">
             <div className="ensaios-fotogrficos-div">Ensaios fotográficos</div>
@@ -170,7 +170,7 @@ function App() {
           <img
             className="liubliana-eslovenia-1-icon"
             alt=""
-            src="../liublianaeslovenia-1@2x.png"
+            src="/img/liubliana-eslovenia.webp"
           />
         </div>
         <div className="top-3-destino-da-europa">
@@ -180,7 +180,7 @@ function App() {
           <img
             className="liubliana-eslovenia-1-icon"
             alt=""
-            src="../amiensfranca-1@2x.png"
+            src="/img/amiens-franca.jpg"
           />
         </div>
         <div className="top-2-destino-da-europa">
@@ -190,7 +190,7 @@ function App() {
           <img
             className="liubliana-eslovenia-1-icon"
             alt=""
-            src="../marbellaespanha-1@2x.png"
+            src="/img/marbella-espanha.jpg"
           />
         </div>
         <div className="veja-o-top101">
@@ -198,16 +198,14 @@ function App() {
           <img
             className="biarrow-down-short-icon"
             alt=""
-            src="../biarrowdownshort.svg"
+            src="/img/arrow-right.png"
           />
         </div>
       </div>
       <div className="top-destinos-europa-2022">
         <span className="contactar-condicoes-legais-pol-span">
-          <span>{`Top destinos `}</span>
-          <span className="span">{` `}</span>
-          <span>{` `}</span>
-          <span className="europa-2022-span">Europa 2022</span>
+          <span>Top destinos</span>
+          <span className="europa-2022-span">EuEEuropa 2022</span>
         </span>
       </div>
       <div className="carousel-div">
@@ -390,13 +388,13 @@ function App() {
         <img
           className="background-mundi-map"
           alt=""
-          src="../background-mundi-map@2x.png"
+          src="/img/mundi map.jpeg"
         />
         <div className="img-div9">
           <img
             className="img-1section-1-icon"
             alt=""
-            src="../img1section-1@2x.png"
+            src="/img/img-1section.jpeg"
           />
           <b className="pic-tours-b">
             <span className="contactar-condicoes-legais-pol-span">
@@ -407,9 +405,9 @@ function App() {
           <img
             className="evamenu-outline-icon"
             alt=""
-            src="../evamenuoutline.svg"
+            src="/img/menu.svg"
           />
-          <img className="mdimagnify-icon" alt="" src="../mdimagnify.svg" />
+          <img className="mdimagnify-icon" alt="" src="/img/lupa.svg" />
         </div>
         <div className="search-bar-div">
           <div className="frame-div24">
@@ -431,7 +429,7 @@ function App() {
         <img
           className="logo-lusopictours-icon"
           alt=""
-          src="../logolusopictours@2x.png"
+          src="/img/lusopictours.jpg"
         />
       </div>
       <div className="nossos-servios-div1">
@@ -442,7 +440,7 @@ function App() {
             </span>
           </p>
           <p className="servicos-p">
-            <span className="servicos-span">Servicos</span>
+            <span className="servicos-span">Serviços</span>
           </p>
         </span>
       </div>

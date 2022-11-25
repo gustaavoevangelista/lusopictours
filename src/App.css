@@ -738,6 +738,10 @@
     height: 689px;
     object-fit: cover;
   }
+
+  .background-mundi-map{
+    opacity: 30%;
+  }
   .img-1section-1-icon {
     width: 764px;
     height: 656px;
